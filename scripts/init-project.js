@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 
 if (!existsSync('package.json')) {
