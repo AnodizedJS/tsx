@@ -9,7 +9,7 @@ if (!existsSync('package.json')) {
 
 const pkg = JSON.parse(readFileSync('package.json', 'utf-8'));
 
-if (pkg.name.includes('@anodized')) {
+if (pkg && pkg.name && pkg.name.includes('@anodized')) {
     throw new Error('Cannot run in anodized scope: ' + process.cwd());
 }
 
