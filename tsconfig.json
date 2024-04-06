@@ -3,5 +3,6 @@
         "outDir": "build",
         "declaration": true,
         "allowJs": true,
-    }
+    },
+    "exclude": ["scripts"]
 }

@@ -1,4 +1,4 @@
-import { ComponentNode, VirtualNode } from './dom'
+import { ComponentNode, HtmlTagName, VirtualNode } from './dom'
 
 /**
  * Creates a virtual DOM node.
@@ -7,7 +7,7 @@ import { ComponentNode, VirtualNode } from './dom'
  * @param {...any} children - Child nodes or components.
  * @returns {VirtualNode} - The created virtual DOM node.
  */
-export const createElement = (tagName: string | Function, props: any, ...children: any[]): VirtualNode => {
+export const createElement = (tagName: HtmlTagName | Function, props: any, ...children: any[]): VirtualNode => {
     
     let node: VirtualNode;
     if (typeof tagName === 'string') {

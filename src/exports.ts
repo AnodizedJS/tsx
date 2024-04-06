@@ -13,3 +13,5 @@ export const AnodizedTSX = {
      */
     createElement
 };
+
+export * from './plugin/css';
