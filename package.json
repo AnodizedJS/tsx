@@ -1,0 +1,32 @@
+{
+  "name": "@anodized/tsx",
+  "version": "1.0.0",
+  "description": "TSX for backend components with Anodized",
+  "main": "build/exports.js",
+  "type": "module",
+  "bin": {
+    "anodized-tsx": "./scripts/cli.js"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "Anodized",
+    "TSX",
+    "Server",
+    "Components",
+    "Backend",
+    "Frontend"
+  ],
+  "author": "John Hudson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  }
+}
